@@ -1,0 +1,41 @@
+% latex table generated in R 3.5.1 by xtable 1.8-3 package
+% Sat Feb 29 08:55:05 2020
+\begin{table*}[ht]
+\centering
+\caption{Label complexity of active vs. passive learning, presented as the relative increase (ratio $>1$) or decrease (ratio $<1$) in the sample size needed for active learning to achieve equal performance as passive learning with $n = 250$ training examples.} 
+\label{tab:label_complexity}
+\begin{tabular}{llccccc}
+  \multicolumn{2}{c}{ } & \multicolumn{5}{c}{Ratio of sample sizes using active vs. passive learning} \\ \cmidrule(lr){3-7}Dataset & Performance metric & Prop. 1 & Cor. 1a & Cor. 1b & Prob. un. & Det. un. \\ 
+  \hline
+Abalone & AUC & 1.00 & 0.93 & 0.91 & 0.91 & 0.56 \\ 
+   & Misclassification rate & 1.01 & 0.93 & 0.88 & 0.87 & 0.41 \\ 
+   & Negative log-likelihood & 1.02 & 0.96 & 0.95 & 1.00 & 0.71 \\ 
+   & RMSE of predictions & 1.01 & 0.94 & 0.94 & 0.97 & $>$2.00 \\ 
+   \hline
+Australian Credit Approval & AUC & 1.06 & 0.86 & 0.94 & 1.12 & 0.80 \\ 
+   & Misclassification rate & 1.07 & 0.93 & 0.92 & 0.95 & 0.47 \\ 
+   & Negative log-likelihood & 1.06 & 0.89 & 0.93 & 1.06 & 0.68 \\ 
+   & RMSE of predictions & 1.07 & 0.91 & 0.94 & 1.08 & 0.89 \\ 
+   \hline
+E. coli & AUC & 1.11 & 0.82 & 0.84 & 1.39 & 1.18 \\ 
+   & Misclassification rate & 1.10 & 0.84 & 0.85 & 1.32 & 0.77 \\ 
+   & Negative log-likelihood & 1.08 & 0.82 & 0.85 & 1.28 & 1.56 \\ 
+   & RMSE of predictions & 1.16 & 0.90 & 0.92 & 1.58 & $>$2.00 \\ 
+   \hline
+German Credit Data & AUC & 1.04 & 0.97 & 0.98 & 1.04 & 1.11 \\ 
+   & Misclassification rate & 1.03 & 0.96 & 0.96 & 1.01 & 0.50 \\ 
+   & Negative log-likelihood & 1.04 & 0.97 & 0.98 & 1.05 & 1.29 \\ 
+   & RMSE of predictions & 1.04 & 0.98 & 0.98 & 1.05 & 1.36 \\ 
+   \hline
+Red Wine & AUC & 0.98 & 0.80 & 0.79 & 0.92 & 1.27 \\ 
+   & Misclassification rate & 0.97 & 0.79 & 0.77 & 0.80 & 0.42 \\ 
+   & Negative log-likelihood & 0.96 & 0.81 & 0.80 & 0.87 & 1.12 \\ 
+   & RMSE of predictions & 0.98 & 0.80 & 0.78 & 0.89 & 1.14 \\ 
+   \hline
+White Wine & AUC & 1.01 & 0.96 & 0.96 & 1.10 & 1.68 \\ 
+   & Misclassification rate & 1.02 & 0.97 & 0.95 & 1.03 & 0.50 \\ 
+   & Negative log-likelihood & 1.01 & 0.99 & 1.00 & 1.13 & $>$2.00 \\ 
+   & RMSE of predictions & 1.02 & 0.98 & 0.98 & 1.12 & $>$2.00 \\ 
+   \hline \multicolumn{7}{l}{\small AUC, area under the receiver operating characteristic curve; RMSE, root mean squared error.} \\ \hline
+\end{tabular}
+\end{table*}

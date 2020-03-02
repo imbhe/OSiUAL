@@ -1,0 +1,3 @@
+Download the FASTA and GenBank files for the E. coli genome from https://www.ncbi.nlm.nih.gov/nuccore/15829254. Store the files as ec.chr01.fa and ec.chr01.gb in the Data folder. Run the script create_ecoli_dataset.R to extract features (relative transition frequencies) and labels (coding vs non-coding sequence) and prepare the E. coli dataset for analysis. The resulting R data file (ecoli.RData) is stored in the Data folder.
+
+Run get_uci_datasets.R to download datasets from the UCI machine learning repository and prepare for analysis. The resulting R data files are stored in the Data folder.
