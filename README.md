@@ -3,7 +3,9 @@
 This repository contains code used in the paper
 Optimal sampling in unbiased active learning
 presented at AISTATS 2020
-by Henrik Imberg, Johan Jonasson and Marina Axelson-Fisk.
+by Henrik Imberg, Johan Jonasson and Marina Axelson-Fisk. 
+
+Find the paper and supplementary material [here](http://proceedings.mlr.press/v108/imberg20a/imberg20a.pdf) and [here](http://proceedings.mlr.press/v108/imberg20a/imberg20a-supp.pdf), and AISTATS presentation [here](https://slideslive.com/38929999/optimal-sampling-in-unbiased-active-learning?ref=speaker-30219-latest).
 
 ---
 
