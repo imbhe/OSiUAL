@@ -213,7 +213,7 @@ al <- function(infile,
       
     } # End current iteration.
     
-    return(1) # Return value, foreach.
+    val <- 1 # Return value, foreach.
     
   } # End foreach.
   
